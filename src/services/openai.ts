@@ -5,7 +5,7 @@ import { Message } from '../types/types';
 import { createMessageObj } from '../hooks/useChat';
 
 // TODO: Put this KEY on .env file
-const openaiAPIKey: string = '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';
+const openaiAPIKey: string = '<YOUR_API_KEY>';
 const client = new OpenAI({
    apiKey: openaiAPIKey,
    dangerouslyAllowBrowser: true
